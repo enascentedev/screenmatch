@@ -16,6 +16,7 @@ public class Principal {
         //meuFilme.somaDasAvaliacoes = 10;
         //meuFilme.totalDeAvaliacoes = 1;
         //System.out.println(meuFilme.pegaMedia());
+        //teste
 
     }
 }
