@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7076e9f-8961-410e-9f8d-3a61eb90b9f1" name="Changes" comment="feat: Adiciona constructor nas classes">
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/pricipal/PrincipalComBusca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/pricipal/PrincipalComListas.java" afterDir="false" />
+    <list default="true" id="e7076e9f-8961-410e-9f8d-3a61eb90b9f1" name="Changes" comment="wip: deixando busca dinamica">
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/excecao/ErroDeConversaDeAnoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/TituloOmdb.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/pricipal/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Serie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenmatch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/screenmatch.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Titulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Titulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/pricipal/PrincipalComBusca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/pricipal/PrincipalComBusca.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Record" />
         <option value="Class" />
       </list>
     </option>
@@ -42,20 +43,30 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.Principal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrincipalComBusca.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/WebGlobal113/Downloads/gson-2.10.1.jar&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/WebGlobal113/Desktop/screenmatch/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.alura.screenmatch.excecao" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.PrincipalComBusca">
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.alura.screenmatch.pricipal.Principal" />
@@ -106,7 +117,9 @@
       <workItem from="1707698524062" duration="5276000" />
       <workItem from="1707735716058" duration="2339000" />
       <workItem from="1707848169326" duration="9613000" />
-      <workItem from="1708041181855" duration="637000" />
+      <workItem from="1708041181855" duration="2205000" />
+      <workItem from="1708086350335" duration="9985000" />
+      <workItem from="1708134966442" duration="461000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Adiciona modelagem de classes com encapsulamento, polimorfismo e herança">
       <option name="closed" value="true" />
@@ -132,7 +145,39 @@
       <option name="project" value="LOCAL" />
       <updated>1707861913679</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: criando chamada api de filmes">
+      <option name="closed" value="true" />
+      <created>1708044193832</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708044193832</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: ordenando dados">
+      <option name="closed" value="true" />
+      <created>1708044233486</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708044233486</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: ordenando dados e criando chamada api">
+      <option name="closed" value="true" />
+      <created>1708044323971</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708044323972</updated>
+    </task>
+    <task id="LOCAL-00007" summary="wip: deixando busca dinamica">
+      <option name="closed" value="true" />
+      <created>1708045259840</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708045259840</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +186,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: Adiciona modelagem de classes com encapsulamento, polimorfismo e herança" />
     <MESSAGE value="feat: Adiciona constructor nas classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Adiciona constructor nas classes" />
+    <MESSAGE value="feat: criando chamada api de filmes" />
+    <MESSAGE value="feat: ordenando dados" />
+    <MESSAGE value="feat: ordenando dados e criando chamada api" />
+    <MESSAGE value="wip: deixando busca dinamica" />
+    <option name="LAST_COMMIT_MESSAGE" value="wip: deixando busca dinamica" />
   </component>
 </project>
